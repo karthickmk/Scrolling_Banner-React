@@ -1,0 +1,66 @@
+.main{
+    text-align: center;
+    height: 100%;
+    display: 'felx';
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #101820FF;
+    
+}
+
+.wrapper {
+  position: relative;
+  display: 'felx';
+
+}
+
+
+.image{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    right: 10px;
+}
+
+.image-container{
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+.disabled{
+    pointer-events: none;
+  }
+.enabled{
+    pointer-events:all;
+  }
+.wrapper{
+    position: relative;
+    height: 400px;
+}
+.prev, .next{
+    padding-top:10px;
+    padding-bottom: 10px;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    color: transparent;
+    transition: 0.6s ease;
+   
+}
+.next{
+    background: linear-gradient(to right,rgba(0, 107, 55, 0),rgba(0, 83, 43, 0.61));
+    height: 500px;
+    width: 230px;
+    right: 0px;
+}
+.prev{
+    height: 500px;
+    background: linear-gradient(to left,rgba(0, 107, 55, 0),rgba(0, 83, 43, 0.61));
+    width: 230px;
+    
+}
+
