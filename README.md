@@ -10,4 +10,4 @@ Setps to use the code:
 1) Download / Clone this repository.
 2) Move images, Scroller.css and Scroller.js to your working folder. 
 3) Import the Scroller component in your workin JS file.
-4) Use the component inside a <div> element.
+4) Use the component inside a div element.
